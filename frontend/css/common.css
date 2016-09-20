@@ -9,7 +9,8 @@
   clear: both; }
 
 body {
-  font-family: open-sans; }
+  font-family: open-sans;
+  min-width: 460px; }
 
 ul {
   list-style: none;
@@ -18,3 +19,6 @@ ul {
 
 a {
   text-decoration: none; }
+
+p {
+  color: #A4A6A8; }

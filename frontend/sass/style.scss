@@ -63,6 +63,9 @@ main {
 		font-weight: 100;
 		margin: 0;
 	}
+	li {
+		color: #A4A6A8;
+	}
 }
 .findService {
 	margin-top: 40px;
@@ -73,5 +76,57 @@ main {
 		font-weight: 200;
 		font-size: 18px;
 		height: 50px;
+		width: 100%;
 	}
+	.btn {
+		width: 100px;
+		height: 50px;
+		color:#00B3F3;
+		border:2px solid #00B3F3;
+	}
+}
+.addres{
+	.center{
+		display: block;
+		margin: auto;
+		text-align: center;
+		font-size:22px;
+		color:#115587; 
+	}
+}
+
+.diff_var {
+		.cont {
+		padding-left: 40px;
+
+	}
+	.input-group {
+		float: left;
+	}
+	.container>div>p {
+		padding-left:50px;
+		font-size:16px;
+		margin: 0;
+	}
+	.container>div{
+		margin-top: 20px;
+	}
+}
+.finish {
+	margin:50px 0;
+}
+
+
+@media screen and (max-width:479px) {
+  /* Target portrait smartphones */
+	h1 {
+		text-align: center;
+	}
+	.second{
+		clear: both;
+	}
+		button {
+			width: 100% !important;
+			margin:10px 0;
+		}
 }
